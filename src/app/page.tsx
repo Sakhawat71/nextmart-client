@@ -1,10 +1,12 @@
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
+
 
 const HomePage = () => {
 
     return (
         <div>
-            <Button variant="outline" >Click Me</Button>
+            <Button className="border-2" >Click Me</Button>
+            <button className="border-2 bg-black" >Click Me</button>
         </div>
     );
 };
